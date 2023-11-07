@@ -6,17 +6,22 @@
 	<link rel="stylesheet" href="FormStyle.css">
 </head>
 <body>
-	<div class ="container">
-		<form onsubmit="sendEmail(); reset(); return false;"> <!--Not giving a return-->
-			<h3>Get in touch!</h3>
-			<input type="text" id="name" placeholder="Enter your name here:" required>
-			<input type="text" id="email" placeholder="Enter your email here:" required>
-			<textarea row="4" id="message" placeholder="Enter your message here:" required></textarea>
-			<button type="submit">Submit</button>
-		</form>
-		
-	</div>
-	<script> src="https://smtpjs.com/v3/smtp.js"</script>
+	<form id="contact-form">
+	        <label for="name">Contact name:</label>
+	        <input type="text" id="name"><br>
+	        
+	        <label for="email">Contact email:</label>
+	        <input type="text" id="email"><br>
+	        
+	        <label for="confirmemail">Email confirmation:</label>
+	        <input type="text" id="confirmemail"><br>
+	        
+	        <label for="message">Contact message:</label>
+	        <textarea id="message"></textarea><br>
+        
+       		<button type="submit">Submit</button>
+    	</form>
+	
 	<script>
 		function sendEmail(){
 			Email.send({
@@ -32,5 +37,42 @@
 			);
 		}
 	</script>
+
+	<script>
+        const config = {
+            'Contact-me': {
+                email: {
+                    defaultTo: 'dan.odonnell928@gmail.com',
+                    subject: 'You have mail!',
+                    body: [
+                        { type: 'message', content: 'Name:' },
+                        { type: 'replacement', content: 'name' },
+                        { type: 'message', content: 'Email:' },
+                        { type: 'replacement', content: 'email' },
+                        { type: 'message', content: 'Confirm email:' },
+                        { type: 'replacement', content: 'confirmemail' },
+                        { type: 'message', content: 'Message:' },
+                        { type: 'replacement', content: 'message' }
+                    ]
+                },
+                form: {
+                    name: { label: 'Contact name' },
+                    email: { label: 'Contact email' },
+                    confirmemail: { label: 'Email confirmation' },
+                    message: { label: 'Contact message' }
+                }
+            }
+        };
+        
+        // You can access the configuration like this:
+        console.log(config['Contact-me'].email.defaultTo);
+        console.log(config['Contact-me'].form.name.label);
+    </script>
+
+
+
+
+
+
 </body>
 </html>	
