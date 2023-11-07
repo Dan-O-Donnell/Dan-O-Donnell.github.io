@@ -22,21 +22,6 @@
        		<button type="submit">Submit</button>
     	</form>
 	
-	<script>
-		function sendEmail(){
-			Email.send({
-				Host : "smtp.gmail.com",
-				Username : "dan.odonnell928@gmail.com",
-				Password : "Funnykittens22",
-				To : 'dan.odonnell928@gmail.com',
-				From : "document.getElementByID("email").value,
-				Subject : "New Contact from'The Menu'",
-				Body : "message:"
-			}).then(
-			  message => alert(message)
-			);
-		}
-	</script>
 
 	<script>
         const config = {
