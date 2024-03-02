@@ -4,15 +4,16 @@ body {
 }
 
 /*  */
-/* Style the body */
+/* Body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+/* Body end */
+/*  */
 
 /* Title */
-/* Header */
-/* Style the header with a grey background and some padding */
+/* Style the title with a colour background and some padding */
 .title {
   overflow: hidden;
   background-color: #BB6F5F;
@@ -66,7 +67,9 @@ body {
   }
 }
 /* Title end */
+/*  */
 
+/*  */
 /* Header */
 /* Style the header with a grey background and some padding */
 .header {
@@ -121,6 +124,54 @@ body {
     float: none;
   }
 }
+/* Header end */
+/*  */
+
+
+/*  */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #BB6F5F;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* Dropdown end */
+/*  */
 
 
 
