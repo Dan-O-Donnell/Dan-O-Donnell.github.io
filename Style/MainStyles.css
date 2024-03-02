@@ -13,7 +13,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #EC407A;
+  background: #FFC3B6;
   color: white;
 }
 
@@ -52,7 +52,7 @@ body {
 /* Bottom nav bar */
 .navbarb {
   overflow: hidden;
-  background-color: #FCE4EC;
+  background-color: #FFC3B6;
   position: inline;
   bottom: 0;
   width: 100%;
@@ -105,7 +105,7 @@ body {
   padding: 20px;
   text-align: center;
   background: #FCE4EC;
-  color: #EC407A;
+  color: #FFC3B6;
 }
 
 
