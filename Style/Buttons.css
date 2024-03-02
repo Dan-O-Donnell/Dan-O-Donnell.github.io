@@ -5,10 +5,10 @@
   padding: 16px;
   font-size: 16px;
   border: none;
+  float: right;
 }
-  input.right{
-    float: right;
-}
+   
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
