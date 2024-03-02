@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>The Menu</h1>
+  <p>Have a look at this week's specials?</p>
+</div>
+
+<div class="navbar">
+  <a href="#">About me</a>
+  <a href="#">Recipes</a>
+  <a href="#">Past menu</a>
+  <a href="#" class="right">Search</a>
+</div>
+
+  <div class="main">
+    <h2>WELCOME!</h2>
+    <p>Have a look below to find this week's dinner menu!</p>
+    <div class="fakeimg" style="height:600px;"><strong>PUT IMAGE HERE</strong></div>
+    <p>I'd just like to say a quick hello and welcome to my page!<br>
+    If you are here as part of my portfolio I encourage you to have a look around to see what I can do! Otherwise, if you click the "About me" button it'll take you to specific information about me!</p>
+  </div>
+
+<hr class="decorative-line">
+<hr class="decorative-line">
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+<div class="navbarb">
+  <a href="#">Contact</a>
+  <a href="#">Follow me!</a>
+  <a href="#" class="right">Back to top</a>
+</div>
+
+</body>
+</html>
