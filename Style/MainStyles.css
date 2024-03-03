@@ -396,5 +396,22 @@ body {
   }
 }
 
+/* Menu Images */
+{
+	box-sizing: border-box;
+	}
+	.column{
+		float: left;
+		max-width: 100%;
+		width: 500px
+		padding:5px;
+	}
+	.row::after{
+		content:"";
+		clear: both;
+		display: table;
+	}
+/* Menu images end */
+
 
 </style>
