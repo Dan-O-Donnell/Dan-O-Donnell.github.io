@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+  <div class="column">
+	  <div class="side">
+	  <p>Put photo here</p>	  
+	  </div>
+	  
+	  <div class="mainabout">
+	  <h2>Dan O'Donnell</h2>
+	<h3> Who am I? <h3>	<br>
+   <p>  Well I'd love to tell you! <br><br>
+As you probably figured out my name is Danny, and I'm the designer and developer of this website!<br>
+I'm an engineer who's very interested in all aspects of web design and development from initial concepts through to coding and function!</p>
+	  <br><br>
+<h3>Why did I make this website?</h3>
+	  <p>I made this website for two reasons:<br>
+	  <ul>
+		<li>1. To have a portfolio to showcase my developer experience and capabilities. </li>	
+		<li>2. To collect all my recipes in one place that I can share with my friends and family where.</li>
+	  </ul></p>
+	  <br><br>
+	  <h3>WHAT DO I LIKE ABOUT WEB DESIGN?</h3><br>
+	 <p> I enjoy using the correct pieces of code together to get the output on the screen that creates something aesthetically pleasing whilst being fully functional.</p>
+	  <br><br>
+	  <p>Resume/CV (Make me a button)</p>
+	  </div>
+  </div>
+  
+  
+  
+  
+<hr class="decorative-line">
+<hr class="decorative-line">
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+<div class="navbarb">
+  <a href="#">Contact</a>
+  <a href="#">Follow me!</a>
+  <a href="#" class="right">Back to top</a>
+</div>
+
+
+</body>
+</html>
