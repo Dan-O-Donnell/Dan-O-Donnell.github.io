@@ -40,13 +40,13 @@ body {
 
 /* Change the background color on mouse-over */
 .title a:hover {
-  background-color: #BB6F5F;
+  background-color: #D1EFBD;
   color: black;
 }
 
 /* Style the active/current link*/
 .title a.active {
-  background-color: #942B2B;
+  background-color: #89D385;
   color: white;
 }
 
